@@ -56,6 +56,11 @@
 		49E803CB21868A310001B47A /* OperationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E803CA21868A310001B47A /* OperationStateTests.swift */; };
 		49E803CC21868A310001B47A /* OperationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E803CA21868A310001B47A /* OperationStateTests.swift */; };
 		49E803CD21868A310001B47A /* OperationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E803CA21868A310001B47A /* OperationStateTests.swift */; };
+		D9C65C3525CC158F00D830D2 /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C65C3425CC158F00D830D2 /* OperationData.swift */; };
+		D9C65C3625CC158F00D830D2 /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C65C3425CC158F00D830D2 /* OperationData.swift */; };
+		D9C65C3725CC158F00D830D2 /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C65C3425CC158F00D830D2 /* OperationData.swift */; };
+		D9C65C3825CC158F00D830D2 /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C65C3425CC158F00D830D2 /* OperationData.swift */; };
+		D9C65C5425CC197100D830D2 /* OperationDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C65C5325CC197100D830D2 /* OperationDataTest.swift */; };
 		E7A1AEF9220CADB400D40A92 /* GroupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1AEF8220CADB400D40A92 /* GroupOperation.swift */; };
 		E7A1AEFA220CADB400D40A92 /* GroupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1AEF8220CADB400D40A92 /* GroupOperation.swift */; };
 		E7A1AEFB220CADB400D40A92 /* GroupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A1AEF8220CADB400D40A92 /* GroupOperation.swift */; };
@@ -112,6 +117,8 @@
 		49C7BCC11F26938F00F4FFBC /* Queuer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queuer.h; sourceTree = "<group>"; };
 		49E803C5217FE8E80001B47A /* OperationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationState.swift; sourceTree = "<group>"; };
 		49E803CA21868A310001B47A /* OperationStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationStateTests.swift; sourceTree = "<group>"; };
+		D9C65C3425CC158F00D830D2 /* OperationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationData.swift; sourceTree = "<group>"; };
+		D9C65C5325CC197100D830D2 /* OperationDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDataTest.swift; sourceTree = "<group>"; };
 		E7A1AEF8220CADB400D40A92 /* GroupOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupOperation.swift; sourceTree = "<group>"; };
 		E7A1AEFD220CADC900D40A92 /* GroupOperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupOperationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -214,6 +221,7 @@
 				4946BDFA214D5C0100FAFC84 /* SchedulerTests.swift */,
 				49C7BCB21F26938F00F4FFBC /* SemaphoreTests.swift */,
 				49C7BCB31F26938F00F4FFBC /* SynchronousOperationTests.swift */,
+				D9C65C5325CC197100D830D2 /* OperationDataTest.swift */,
 			);
 			path = QueuerTests;
 			sourceTree = "<group>";
@@ -238,6 +246,7 @@
 				4946BDF5214D586900FAFC84 /* Scheduler.swift */,
 				49C7BCBE1F26938F00F4FFBC /* Semaphore.swift */,
 				49C7BCBF1F26938F00F4FFBC /* SynchronousOperation.swift */,
+				D9C65C3425CC158F00D830D2 /* OperationData.swift */,
 			);
 			path = Queuer;
 			sourceTree = "<group>";
@@ -535,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C7BCE21F26939A00F4FFBC /* Queuer.swift in Sources */,
+				D9C65C3625CC158F00D830D2 /* OperationData.swift in Sources */,
 				49C7BCE41F26939A00F4FFBC /* Semaphore.swift in Sources */,
 				49C7BCE11F26939A00F4FFBC /* ConcurrentOperation.swift in Sources */,
 				4946BDF7214D586900FAFC84 /* Scheduler.swift in Sources */,
@@ -563,6 +573,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C7BCCE1F26938F00F4FFBC /* ConcurrentOperation.swift in Sources */,
+				D9C65C3525CC158F00D830D2 /* OperationData.swift in Sources */,
 				49C7BCD21F26938F00F4FFBC /* SynchronousOperation.swift in Sources */,
 				49C7BCCF1F26938F00F4FFBC /* Queuer.swift in Sources */,
 				4946BDF6214D586900FAFC84 /* Scheduler.swift in Sources */,
@@ -581,6 +592,7 @@
 				49E803CB21868A310001B47A /* OperationStateTests.swift in Sources */,
 				49C7BCEA1F26939F00F4FFBC /* SemaphoreTests.swift in Sources */,
 				4946BDFB214D5C0100FAFC84 /* SchedulerTests.swift in Sources */,
+				D9C65C5425CC197100D830D2 /* OperationDataTest.swift in Sources */,
 				49C7BCE71F26939F00F4FFBC /* ConcurrentOperationTests.swift in Sources */,
 				49C7BCEB1F26939F00F4FFBC /* SynchronousOperationTests.swift in Sources */,
 			);
@@ -591,6 +603,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C7BCD61F26939900F4FFBC /* Queuer.swift in Sources */,
+				D9C65C3825CC158F00D830D2 /* OperationData.swift in Sources */,
 				49C7BCD81F26939900F4FFBC /* Semaphore.swift in Sources */,
 				49C7BCD51F26939900F4FFBC /* ConcurrentOperation.swift in Sources */,
 				4946BDF9214D586900FAFC84 /* Scheduler.swift in Sources */,
@@ -605,6 +618,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49C7BCDC1F26939A00F4FFBC /* Queuer.swift in Sources */,
+				D9C65C3725CC158F00D830D2 /* OperationData.swift in Sources */,
 				49C7BCDE1F26939A00F4FFBC /* Semaphore.swift in Sources */,
 				49C7BCDB1F26939A00F4FFBC /* ConcurrentOperation.swift in Sources */,
 				4946BDF8214D586900FAFC84 /* Scheduler.swift in Sources */,
